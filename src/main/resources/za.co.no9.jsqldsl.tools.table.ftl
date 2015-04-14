@@ -16,7 +16,7 @@ public class ${tableMetaData.tableName().dbName()} extends za.co.no9.jsqldsl.db.
     }
 
     public static ${tableMetaData.tableName().dbName()} ref() {
-        return new ${tableMetaData.tableName().dbName()}(java.util.Optional. <String>empty());
+        return new ${tableMetaData.tableName().dbName()}(java.util.Optional.<String>empty());
     }
 
     public static ${tableMetaData.tableName().dbName()} as(String alias) {
